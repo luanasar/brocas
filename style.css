@@ -69,7 +69,7 @@ main {
 
 .coluna-menor li {
   /* margin-top: 32px; */
-  display: inline-block;
+  display: block;
   text-align: left;
 }
 
@@ -109,6 +109,10 @@ ul {
   padding: 0;
 }
 
+ol {
+  list-style-type: circle;
+}
+
 .formacao {
   margin-top: 32px;
 }
@@ -124,6 +128,20 @@ ul {
 
 .coluna-maior h2 {
   font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  font-family: "Futura Bk BT", sans-serif;
+}
+
+.coluna-maior h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  font-family: "Futura Bk BT", sans-serif;
+}
+
+.coluna-maior p {
+  font-size: 18px;
   margin-bottom: 20px;
   margin-left: 16px;
   font-family: "Futura Bk BT", sans-serif;
