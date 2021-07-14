@@ -63,13 +63,13 @@ main {
 
 .coluna-menor {
   margin-top: 48px;
-  width: 500px;
+  width: 388px;
   font-family: "Futura Bk BT", sans-serif;
 }
 
 .coluna-menor li {
   /* margin-top: 32px; */
-  display: block;
+  display: grid;
   text-align: left;
 }
 
