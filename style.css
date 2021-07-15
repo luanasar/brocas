@@ -141,57 +141,19 @@ ol {
 }
 
 .coluna-maior p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   margin-left: 16px;
   font-family: "Futura Bk BT", sans-serif;
+  /* text-align: justify; */
 }
 
-.habilidade {
-  background-color: white;
-  border-radius: 8px;
-  padding: 24px;
-  margin: 12px;
-  width: 288px;
-}
-
-.habilidade h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 36px;
-}
-
-.habilidade p {
-  font-size: 16px;
-}
-
-.habilidade li {
-  margin-top: 24px;
-}
-
-.habilidade li:first-child {
-  margin-top: 0;
-}
-
-.progresso {
-  width: 100%;
-  display: flex;
-}
-
-.barra {
-  /* margin-top: 2px; */
-  width: 20%;
-  height: 4px;
-  background-color: #4200ff;
-}
-
-.incompleto {
-  opacity: 0.2;
-}
-
-.habilidades {
+.intro {
   display: flex;
   flex-wrap: wrap;
+  width: 900px;
+  align-items: center;
+  justify-items: center;
 }
 
 .socials {
