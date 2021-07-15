@@ -200,12 +200,12 @@ ol {
 }
 
 .social {
-  width: 288px;
+  /* width: 600px; */
   padding: 24px;
   background-color: white;
   border-radius: 8px;
   margin: 12px;
-  display: grid;
+  display: flex;
 }
 
 .social a {
