@@ -210,7 +210,7 @@ ol {
 
 .social a {
   text-decoration: none;
-  background-color: #4200ff;
+  /* background-color: #4200ff; */
   color: white;
   padding: 8px 24px;
   font-family: "Futura Md BT", sans-serif;
@@ -284,17 +284,19 @@ ol {
 
 .rodape {
   background-color: rgba(0, 0, 0, 0.6);
-  height: 100px;
-  font-family: "Futura Md BT", sans-serif;
+  height: 50px;
+  font-family: "Futura Bk BT", sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 2px;
+  /* padding: 50%; */
+  
 }
 
 .rodape p {
-  margin: 3px;
+  margin: 5px;
   text-align: center;
   color: white;
+  font-size: 14px;
   font-family: "Futura Bk BT", sans-serif;
   font-weight: none;
 }
@@ -303,6 +305,7 @@ ol {
   margin: 3px;
   text-align: center;
   color: white;
+  font-size: 14px;
   font-family: "Futura Bk BT", sans-serif;
   font-weight: none;
 }
