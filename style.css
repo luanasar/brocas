@@ -63,18 +63,18 @@ main {
 
 .coluna-menor {
   margin-top: 48px;
-  width: 388px;
+  width: 250px;
   font-family: "Futura Bk BT", sans-serif;
 }
 
 .coluna-menor li {
   /* margin-top: 32px; */
-  display: grid;
+  display: 
+  width: 80px;grid;
   text-align: left;
 }
 
 .linha {
-  width: 80px;
   border-top: 2px solid;
   margin-top: 8px;
 }
