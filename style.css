@@ -197,26 +197,14 @@ ol {
   margin-bottom: 24px;
 }
 
-.social img {
+/* .social img {
   width: 50px;
   height: 50px;
   border-radius: 4px;
   margin-right: 8px;
-}
-
-.arquitetura {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* .arquit {
-  width: 288px;
-  padding: 24px;
-  background-color: white;
-  border-radius: 8px;
-  margin: 12px;
-  display: grid;
 } */
+
+
 
 .menu a {
   text-decoration: none;
@@ -231,31 +219,28 @@ ol {
   margin-top: 24px;
 }
 
-/* .arquit h3 {
-  font-size: 24px;
-  font-weight: bold;
-} */
 
-/* .arquit p {
-  margin-top: 16px;
-  margin-bottom: 24px;
-} */
 
-/* .arquit img {
-  width: 290px;
-  height: 170px;
-  border-radius: 4px;
-  margin-right: 8px;
-} */
-
-.rodape {
+footer {
   background-color: rgba(0, 0, 0, 0.6);
   height: 50px;
   font-family: "Futura Bk BT", sans-serif;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* padding: 50%; */
   
+}
+
+.rodape1 {
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.rodape2 {
+  
+  display: flex;
+  flex-direction: column;
 }
 
 .rodape p {
@@ -267,11 +252,9 @@ ol {
   font-weight: none;
 }
 
-.rodape h2 {
-  margin: 3px;
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  font-family: "Futura Bk BT", sans-serif;
-  font-weight: none;
+.rodape img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  margin-right: 8px;
 }
