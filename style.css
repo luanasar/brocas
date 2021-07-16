@@ -243,6 +243,11 @@ ol {
   margin-top: 24px;
 }
 
+.servicos p {
+  font-family: "Futura Bk BT", sans-serif;
+  font-size: 14px;
+}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
