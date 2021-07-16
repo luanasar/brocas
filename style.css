@@ -82,14 +82,10 @@ main {
   display: block;
   width: 80px;
   text-align: center;
-  align-items: center;
-  justify-items: center;
+  /* align-items: center; */
+  /* justify-items: center; */
   align-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: block;
-  text-align: center;
+  /* justify-content: center; */
 }
 
 .linha {
