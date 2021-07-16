@@ -172,7 +172,7 @@ ol {
   text-align: center;
 }
 
-.contato {
+.contato p {
   display: flex;
   /* flex-wrap: wrap; */
   width: 900px;
@@ -244,6 +244,20 @@ ol {
   display: inline-block;
   /* text-align: center; */
   margin-top: 24px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: block;
+  text-align: center;
 }
 
 footer {
