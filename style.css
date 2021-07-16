@@ -2,7 +2,6 @@
   border: 2px solid blue
 } */
 
-
 h1,
 h2,
 h3 {
@@ -80,9 +79,17 @@ main {
 
 .coluna-menor li {
   /* margin-top: 32px; */
-  display: 
-  width: 80px;grid;
-  /* text-align: center; */
+  display: block;
+  width: 80px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: block;
+  text-align: center;
 }
 
 .linha {
@@ -99,7 +106,6 @@ main {
   font-size: 20px;
   font-family: "Futura Bk BT", sans-serif;
 }
-
 
 .coluna-menor img {
   width: 40px;
@@ -167,7 +173,7 @@ ol {
 }
 
 .contato {
-  display: inline-block;
+  display: flex;
   /* flex-wrap: wrap; */
   width: 900px;
   align-items: center;
@@ -227,8 +233,6 @@ ol {
   margin-right: 8px;
 }
 
-
-
 .menu a {
   text-decoration: none;
   /* background-color: #4200ff; */
@@ -242,8 +246,6 @@ ol {
   margin-top: 24px;
 }
 
-
-
 footer {
   background-color: rgba(0, 0, 0, 0.6);
   height: 50px;
@@ -251,17 +253,14 @@ footer {
   /* display: flex;
   flex-direction: column; */
   /* padding: 50%; */
-  
 }
 
 .rodape1 {
-  
   display: flex;
   flex-direction: row;
 }
 
 .rodape2 {
-  
   display: flex;
   flex-direction: column;
 }
