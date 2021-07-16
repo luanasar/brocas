@@ -153,6 +153,12 @@ ol {
   width: 900px;
   align-items: center;
   justify-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: block;
+  text-align: center;
 }
 
 /* .socials {
