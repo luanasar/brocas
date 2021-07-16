@@ -1,3 +1,8 @@
+* {
+  border: 2px solid blue
+}
+
+
 h1,
 h2,
 h3 {
@@ -65,13 +70,14 @@ main {
   margin-top: 48px;
   width: 200px;
   font-family: "Futura Bk BT", sans-serif;
+  text-align: center;
 }
 
 .coluna-menor li {
   /* margin-top: 32px; */
   display: 
   width: 80px;grid;
-  text-align: left;
+  /* text-align: center; */
 }
 
 .linha {
@@ -89,9 +95,6 @@ main {
   font-family: "Futura Bk BT", sans-serif;
 }
 
-.formacao .linha {
-  border-color: #ffc700;
-}
 
 .coluna-menor img {
   width: 40px;
@@ -156,20 +159,26 @@ ol {
   justify-items: center;
 }
 
-.socials {
+/* .socials {
   display: flex;
   flex-wrap: wrap;
-}
+  align-items: center;
+  justify-items: center;
+} */
 
 .social {
   width: 900px;
   padding: 24px;
-  /* background-color: white; */
   border-radius: 8px;
   margin: 12px;
-  display: flex;
   align-items: center;
   justify-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: block;
+  text-align: center;
 }
 
 .social a {
@@ -180,10 +189,10 @@ ol {
   font-family: "Futura Md BT", sans-serif;
   border-radius: 4px;
   font-weight: 600;
-  display: inline-block;
+  /* display: inline-block;
   text-align: center;
   align-items: center;
-  justify-items: center;
+  justify-items: center; */
   margin-top: 24px;
 }
 
@@ -197,12 +206,12 @@ ol {
   margin-bottom: 24px;
 }
 
-/* .social img {
+.social img {
   width: 50px;
   height: 50px;
   border-radius: 4px;
   margin-right: 8px;
-} */
+}
 
 
 
@@ -215,7 +224,7 @@ ol {
   border-radius: 4px;
   font-weight: 600;
   display: inline-block;
-  /* text-align: left; */
+  /* text-align: center; */
   margin-top: 24px;
 }
 
@@ -250,11 +259,4 @@ footer {
   font-size: 14px;
   font-family: "Futura Bk BT", sans-serif;
   font-weight: none;
-}
-
-.rodape img {
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
-  margin-right: 8px;
 }
