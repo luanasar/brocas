@@ -166,12 +166,19 @@ ol {
   text-align: center;
 }
 
-/* .socials {
+.contato {
   display: flex;
   flex-wrap: wrap;
+  width: 900px;
   align-items: center;
   justify-items: center;
-} */
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: table;
+  text-align: center;
+}
 
 .social {
   width: 900px;
